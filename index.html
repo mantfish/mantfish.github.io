@@ -2,24 +2,30 @@
 <html>
   <head>
     <title>PDF Viewer</title>
+    <style>
+      .center {
+        margin: auto;
+        width: 60%;
+        border: 3px solid #73AD21;
+        padding: 10px;
+      }
+      </style>
   </head>
   <body>
 
     <!--
       Place the following <div> element where you want the PDF to be displayed in your website. You can change the size using the width and height attributes.
     -->
-    <div>
+    <div class = "center">
       <object
         data='David_OBM_CV.pdf'
         type="application/pdf"
-        width="500"
-        height="678"
+        height="100%"
       >
 
         <iframe
           src='David_OBM_CV.pdf'
-          width="500"
-          height="678"
+          height="100%"
         >
         <p>This browser does not support PDF!</p>
         </iframe>
